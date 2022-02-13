@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/deshboard/static/css/main.d46334af.css",
+    "main.js": "/deshboard/static/js/main.b3074979.js",
+    "index.html": "/deshboard/index.html",
+    "main.d46334af.css.map": "/deshboard/static/css/main.d46334af.css.map",
+    "main.b3074979.js.map": "/deshboard/static/js/main.b3074979.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d46334af.css",
+    "static/js/main.b3074979.js"
+  ]
+}
