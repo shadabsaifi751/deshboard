@@ -1,0 +1,78 @@
+.bg-blue{
+    background-color: #303C6C;
+}
+
+.ChatBoard{
+    width: 100%;
+    z-index: 99;
+    // height: 100%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+
+    .chat-head{
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .online{
+        position: absolute;
+        right: 24px;
+        bottom: 8px;
+    }
+    h3{
+        font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    }
+
+    h4{
+        font-weight: 500;
+        font-size: 18px;
+        color: #BBBBBB;
+        letter-spacing: -0.02em;
+    }
+    .chat-box{
+        width: 363px;
+        background: #F4F4F4;
+        border-radius: 0px 20px 10px;
+        padding: 10px 13px;
+        margin-left: 20px;
+        margin-top: 14px;
+
+        .chat-text{
+            font-size: 16px;
+            letter-spacing: -0.02em;
+            color: #3C3C3C;
+            letter-spacing: -0.02em;
+        }
+    }
+    .radius{
+        background: rgba(180, 223, 229, 0.5);
+        border-radius: 20px 0px 10px 20px;
+        margin-right: 20px;
+    }
+    .chat-form{
+        height: 60px;
+    border-radius: 10px;
+    letter-spacing: -0.02em;
+    color: #BBBBBB;
+    font-size: 16px;
+    border: 1px solid #BBBBBB;
+    }
+    .file-icon{
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .send-btn{
+        background: #C4C4C4;
+    padding: 9px;
+    border-radius: 3rem;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+}
